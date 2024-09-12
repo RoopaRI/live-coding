@@ -4,7 +4,8 @@ import './App.css';
 // import Navbar from './Components/Navbar/Navbar';
 // import Form from './Components/Form/Form';
 // import Counter from './Components/Counter/Counter';
-import Fetch from './Components/Fetch/Fetch';
+// import Fetch from './Components/Fetch/Fetch';
+import ToDo from './Components/ToDo/ToDo';
 
 function App() {
   return (
@@ -22,8 +23,10 @@ function App() {
       {/* <Counter/> */}
 
       {/* 5.Fetch data and display */}
-      <Fetch/>
+      {/* <Fetch/> */}
 
+      {/* 6.To-Do List  */}
+      <ToDo/>
     </div>
   );
 }
