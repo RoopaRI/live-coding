@@ -3,7 +3,8 @@ import './App.css';
 // import ToggleButton from './Components/ToggleButton/ToggleButton';
 // import Navbar from './Components/Navbar/Navbar';
 // import Form from './Components/Form/Form';
-import Counter from './Components/Counter/Counter';
+// import Counter from './Components/Counter/Counter';
+import Fetch from './Components/Fetch/Fetch';
 
 function App() {
   return (
@@ -17,8 +18,11 @@ function App() {
       {/* 3.Create a form with validation. */}
       {/* <Form/> */}
 
-      {/* Create a Simple counter component using react hooks */}
-      <Counter/>
+      {/* 4.Create a Simple counter component using react hooks */}
+      {/* <Counter/> */}
+
+      {/* 5.Fetch data and display */}
+      <Fetch/>
 
     </div>
   );
