@@ -12,8 +12,8 @@ export default function Navbar(){
         <div className='navbar'>
             <h1>Logo</h1>
             <div className={`menu ${menu ? 'open' : ''} `}>
-                <a href='#'>Home</a>
-                <a href='#'>Explore</a>
+                <p>Home</p>
+                <p>Explore</p>
             </div>
             <div className='hamburger'>
                 <button onClick={handleMenu}>Menu</button>
