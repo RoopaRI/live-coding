@@ -2,7 +2,8 @@ import React from 'react';
 import './App.css';
 // import ToggleButton from './Components/ToggleButton/ToggleButton';
 // import Navbar from './Components/Navbar/Navbar';
-import Form from './Components/Form/Form';
+// import Form from './Components/Form/Form';
+import Counter from './Components/Counter/Counter';
 
 function App() {
   return (
@@ -12,9 +13,13 @@ function App() {
 
       {/* 2.Create a responsive navigation bar */}
       {/* <Navbar/> */}
-      
+
       {/* 3.Create a form with validation. */}
-      <Form/>
+      {/* <Form/> */}
+
+      {/* Create a Simple counter component using react hooks */}
+      <Counter/>
+
     </div>
   );
 }
