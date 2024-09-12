@@ -1,0 +1,30 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.open{
+    display: flex;
+    gap:10px;
+    align-items: center;
+}
+
+.hamburger{
+    display: none;
+}
+
+@media (max-width:700px){
+    .hamburger{
+        display:block;
+        
+    }
+
+    .menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .open{
+        display: none;
+    }
+}

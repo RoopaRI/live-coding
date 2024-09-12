@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
       {/* Create a simple toggle button. */}
-      <ToggleButton/>
+      {/* <ToggleButton/> */}
       {/* Create a responsive navigation bar */}
       <Navbar/>
     </div>
