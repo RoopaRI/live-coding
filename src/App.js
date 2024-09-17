@@ -10,7 +10,8 @@ import './App.css';
 // import DataFetching from './Components/CustomHook/DataFetching';
 // import LoadingSpinner from './Components/LoadingSpinner/LoadingSpinner';
 // import RouteComponent from './Components/RouteComponent/RouteComponent';
-import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
+// import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
+import Pagination from './Components/Pagination/Pagination';
 
 function App() {
   return (
@@ -46,7 +47,10 @@ function App() {
       {/* <RouteComponent/> */}
 
       {/* 11.Implement a dark mode toggle. */}
-      <DarkModeToggle/>
+      {/* <DarkModeToggle/> */}
+
+      {/* 12.Pagination to dispaly 10 items per page */}
+      <Pagination />
 
     </div>
   );

@@ -1,0 +1,68 @@
+/* Center the main content */
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style for the pagination container */
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Style the buttons */
+button {
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect on buttons */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Disabled button styling */
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+/* Style for the current page display */
+span {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+/* Styling for the data items */
+p {
+    padding: 10px;
+    margin: 10px auto;
+    width: 80%;
+    border-bottom: 1px solid #ddd;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    button {
+        padding: 8px 12px;
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 14px;
+        width: 90%;
+    }
+}
