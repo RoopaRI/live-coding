@@ -5,7 +5,8 @@ import './App.css';
 // import Form from './Components/Form/Form';
 // import Counter from './Components/Counter/Counter';
 // import Fetch from './Components/Fetch/Fetch';
-import ToDo from './Components/ToDo/ToDo';
+// import ToDo from './Components/ToDo/ToDo';
+import PassedProps from './Components/PassedProps/PassedProps';
 
 function App() {
   return (
@@ -26,7 +27,10 @@ function App() {
       {/* <Fetch/> */}
 
       {/* 6.To-Do List  */}
-      <ToDo/>
+      {/* <ToDo/> */}
+
+      {/* 7.Create a simple React component that displays a list of items passed as props. */}
+      <PassedProps/>
     </div>
   );
 }
