@@ -11,7 +11,8 @@ import './App.css';
 // import LoadingSpinner from './Components/LoadingSpinner/LoadingSpinner';
 // import RouteComponent from './Components/RouteComponent/RouteComponent';
 // import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
-import Pagination from './Components/Pagination/Pagination';
+// import Pagination from './Components/Pagination/Pagination';
+import SetTimeout from './Components/SetTimeout/SetTimeout';
 
 function App() {
   return (
@@ -50,7 +51,10 @@ function App() {
       {/* <DarkModeToggle/> */}
 
       {/* 12.Pagination to dispaly 10 items per page */}
-      <Pagination />
+      {/* <Pagination /> */}
+
+      {/* 13. Using setTimeout, print the string 'Hello!' after 1000ms. */}
+      <SetTimeout />
 
     </div>
   );
