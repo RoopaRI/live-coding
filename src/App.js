@@ -7,7 +7,8 @@ import './App.css';
 // import Fetch from './Components/Fetch/Fetch';
 // import ToDo from './Components/ToDo/ToDo';
 // import PassedProps from './Components/PassedProps/PassedProps';
-import DataFetching from './Components/CustomHook/DataFetching';
+// import DataFetching from './Components/CustomHook/DataFetching';
+import LoadingSpinner from './Components/LoadingSpinner/LoadingSpinner';
 
 function App() {
   return (
@@ -34,7 +35,10 @@ function App() {
       {/* <PassedProps/> */}
 
       {/* 8.Describe the use of hooks in functional components. Implement a custom hook for data fetching. */}
-      <DataFetching/>
+      {/* <DataFetching/> */}
+
+      {/* 9.Implement the loading spinner while fetching data */}
+      <LoadingSpinner/>
 
     </div>
   );
