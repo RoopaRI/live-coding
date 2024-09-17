@@ -12,7 +12,8 @@ import './App.css';
 // import RouteComponent from './Components/RouteComponent/RouteComponent';
 // import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
 // import Pagination from './Components/Pagination/Pagination';
-import SetTimeout from './Components/SetTimeout/SetTimeout';
+// import SetTimeout from './Components/SetTimeout/SetTimeout';
+import ChangeBackgroundColor from './Components/ChangeBackgroundColor/ChangeBackgroundColor';
 
 function App() {
   return (
@@ -50,11 +51,15 @@ function App() {
       {/* 11.Implement a dark mode toggle. */}
       {/* <DarkModeToggle/> */}
 
-      {/* 12.Pagination to dispaly 10 items per page */}
+      {/* 12.Pagination to display 10 items per page */}
       {/* <Pagination /> */}
 
       {/* 13. Using setTimeout, print the string 'Hello!' after 1000ms. */}
-      <SetTimeout />
+      {/* <SetTimeout /> */}
+
+      {/* Create a single button that changes its background color on each click, cycling through a predefined list of colors. */}
+      <ChangeBackgroundColor/>
+
 
     </div>
   );
