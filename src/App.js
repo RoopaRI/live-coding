@@ -8,7 +8,8 @@ import './App.css';
 // import ToDo from './Components/ToDo/ToDo';
 // import PassedProps from './Components/PassedProps/PassedProps';
 // import DataFetching from './Components/CustomHook/DataFetching';
-import LoadingSpinner from './Components/LoadingSpinner/LoadingSpinner';
+// import LoadingSpinner from './Components/LoadingSpinner/LoadingSpinner';
+import RouteComponent from './Components/RouteComponent/RouteComponent';
 
 function App() {
   return (
@@ -38,8 +39,10 @@ function App() {
       {/* <DataFetching/> */}
 
       {/* 9.Implement the loading spinner while fetching data */}
-      <LoadingSpinner/>
+      {/* <LoadingSpinner/> */}
 
+      {/* 10.How do you handle dynamic routing in a React application? Provide an example. */}
+      <RouteComponent/>
     </div>
   );
 }
