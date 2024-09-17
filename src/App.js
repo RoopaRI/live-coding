@@ -6,7 +6,8 @@ import './App.css';
 // import Counter from './Components/Counter/Counter';
 // import Fetch from './Components/Fetch/Fetch';
 // import ToDo from './Components/ToDo/ToDo';
-import PassedProps from './Components/PassedProps/PassedProps';
+// import PassedProps from './Components/PassedProps/PassedProps';
+import DataFetching from './Components/CustomHook/DataFetching';
 
 function App() {
   return (
@@ -30,7 +31,11 @@ function App() {
       {/* <ToDo/> */}
 
       {/* 7.Create a simple React component that displays a list of items passed as props. */}
-      <PassedProps/>
+      {/* <PassedProps/> */}
+
+      {/* 8.Describe the use of hooks in functional components. Implement a custom hook for data fetching. */}
+      <DataFetching/>
+
     </div>
   );
 }
