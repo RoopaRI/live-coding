@@ -14,6 +14,12 @@ export default function ToDo(){
         setInput('');
     }
 
+    const handleEdit = (index, editedTask) => {
+        const updatedtasks = [...todo];
+        updatedtasks[index] = editedTask;
+        setTodo(updatedtasks);
+    }
+
     const handleDelete = (index) => {
         setTodo(todo.filter((_, id)=>id !== index));
     }
@@ -33,7 +39,7 @@ export default function ToDo(){
             
             {todo.length>0 && todo.map((ele, id)=>(
                 <div className='activities'>
-                    <p key={id}>{ele}</p>
+                    <input type='text' value={ele} className='edit' onChange={(e)=>{handleEdit(id, e.target.value)}}/>
                     <button className='delete' onClick={()=>handleDelete(id)}>Delete</button>
                 </div>  
             ))}
