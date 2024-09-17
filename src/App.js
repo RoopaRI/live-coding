@@ -9,7 +9,8 @@ import './App.css';
 // import PassedProps from './Components/PassedProps/PassedProps';
 // import DataFetching from './Components/CustomHook/DataFetching';
 // import LoadingSpinner from './Components/LoadingSpinner/LoadingSpinner';
-import RouteComponent from './Components/RouteComponent/RouteComponent';
+// import RouteComponent from './Components/RouteComponent/RouteComponent';
+import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
 
 function App() {
   return (
@@ -42,7 +43,11 @@ function App() {
       {/* <LoadingSpinner/> */}
 
       {/* 10.How do you handle dynamic routing in a React application? Provide an example. */}
-      <RouteComponent/>
+      {/* <RouteComponent/> */}
+
+      {/* 11.Implement a dark mode toggle. */}
+      <DarkModeToggle/>
+
     </div>
   );
 }

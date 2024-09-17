@@ -1,0 +1,33 @@
+/* Base styles for light theme */
+body.light {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* Styles for dark theme */
+body.dark {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+/* Button styling */
+button {
+    padding: 10px 20px;
+    margin: 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Light theme button */
+body.light button {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+/* Dark theme button */
+body.dark button {
+    background-color: #ffffff;
+    color: #000000;
+}
