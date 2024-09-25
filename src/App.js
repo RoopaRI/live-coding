@@ -13,7 +13,8 @@ import './App.css';
 // import DarkModeToggle from './Components/DarkModeToggle/DarkModeToggle';
 // import Pagination from './Components/Pagination/Pagination';
 // import SetTimeout from './Components/SetTimeout/SetTimeout';
-import ChangeBackgroundColor from './Components/ChangeBackgroundColor/ChangeBackgroundColor';
+// import ChangeBackgroundColor from './Components/ChangeBackgroundColor/ChangeBackgroundColor';
+import UserTable from './Components/UserTable/UserTable';
 
 function App() {
   return (
@@ -54,11 +55,14 @@ function App() {
       {/* 12.Pagination to display 10 items per page */}
       {/* <Pagination /> */}
 
-      {/* 13. Using setTimeout, print the string 'Hello!' after 1000ms. */}
+      {/* 13.Using setTimeout, print the string 'Hello!' after 1000ms. */}
       {/* <SetTimeout /> */}
 
-      {/* Create a single button that changes its background color on each click, cycling through a predefined list of colors. */}
-      <ChangeBackgroundColor/>
+      {/* 14.Create a single button that changes its background color on each click, cycling through a predefined list of colors. */}
+      {/* <ChangeBackgroundColor/> */}
+
+      {/* 15.Create a JavaScript App that fetches user data from the provided API(https://jsonplaceholder.typicode.com/users) and displays it in a responsive table. */}
+      <UserTable />
 
 
     </div>
