@@ -14,7 +14,8 @@ import './App.css';
 // import Pagination from './Components/Pagination/Pagination';
 // import SetTimeout from './Components/SetTimeout/SetTimeout';
 // import ChangeBackgroundColor from './Components/ChangeBackgroundColor/ChangeBackgroundColor';
-import UserTable from './Components/UserTable/UserTable';
+// import UserTable from './Components/UserTable/UserTable';
+import SearchQuery from './Components/SearchQuery/SearchQuery';
 
 function App() {
   return (
@@ -62,8 +63,10 @@ function App() {
       {/* <ChangeBackgroundColor/> */}
 
       {/* 15.Create a JavaScript App that fetches user data from the provided API(https://jsonplaceholder.typicode.com/users) and displays it in a responsive table. */}
-      <UserTable />
+      {/* <UserTable /> */}
 
+      {/* 16.Reach component to search the cities. */}
+      <SearchQuery />
 
     </div>
   );
