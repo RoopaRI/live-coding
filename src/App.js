@@ -15,7 +15,8 @@ import './App.css';
 // import SetTimeout from './Components/SetTimeout/SetTimeout';
 // import ChangeBackgroundColor from './Components/ChangeBackgroundColor/ChangeBackgroundColor';
 // import UserTable from './Components/UserTable/UserTable';
-import SearchQuery from './Components/SearchQuery/SearchQuery';
+// import SearchQuery from './Components/SearchQuery/SearchQuery';
+import DebounceSearch from './Components/DebounceSearch/DebounceSearch';
 
 function App() {
   return (
@@ -66,7 +67,10 @@ function App() {
       {/* <UserTable /> */}
 
       {/* 16.Reach component to search the cities. */}
-      <SearchQuery />
+      {/* <SearchQuery /> */}
+
+      {/* 17.Search query using debouncing technique */}
+      <DebounceSearch />
 
     </div>
   );
